@@ -95,7 +95,47 @@ header{
         color: #151414;
         margin-top: auto;
         margin-left: 60px;
-     
+     }
 
-      }
+     /* Footer */
+     .footer-containr{
+      background-color: #151414;
+      display: flex;
+      justify-content: space-evenly;
+      padding: 130px 230px 100px 230px;
+      margin-top: 100px;
+     }
+     .future{
+      width: 50%;
+     }
+     .future h3{
+       color: beige;
+       font-size: 40px;
+       font-weight: 700;
+     }
+     .future p{
+      color: beige;
+     }
+     .subscribe{
+      width: 50%;
+      margin-left:150px ;
+     }
+     .subscribe h4{
+      color: #F8F8F8;
+      font-size: 40px;
+      font-weight: 700;
+     }
+     .icons {
+      display: flex;
+      gap: 20px
+     }
+     #email{
+      padding:12px 80px;
+}
+     #subscribe-btn{
+      margin-top: 15px;
+      padding: 12px 60px;
+      background-color: white;
+     }
+
       
