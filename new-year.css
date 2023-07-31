@@ -23,11 +23,56 @@ header{
       }
       .btn-primary{
         text-align: right;
-        border-radius: 5px;
+        border-radius: 10px;
         background: #F15B22;
-        padding: 30px 60px;
+        padding: 20px 40px;
         font-size: 20px;
         color: aliceblue;
         font-weight: 800;
         margin-top: 30px;
+      }
+
+      /* failures container */
+
+
+      /* My Plans */
+      .my-plan-container{
+      margin-top: 150px;
+      
+      }
+      .plan-title{
+        text-align: center;
+        color:  #151414;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: Work Sans;
+}
+      .skill-container{
+        display: flex;
+        padding: 50px 330px;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .skill{
+        text-align: center;
+      }
+      .skill-title{
+        color:  #151414;
+        font-family: Work Sans;
+        font-size: 30px;  
+        font-weight: 700; 
+      }
+      .skill-description{
+        color:  #737272;
+        font-family: Work Sans;
+        font-size: 25px;
+        font-weight: 500;
+      }
+
+      /*  picture-container*/
+      .picture-container{
+        width: 1140px;
+        height: 300px;
+
+        background: url(images/watch.png) no-repeat 
       }
